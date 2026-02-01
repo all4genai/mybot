@@ -7,6 +7,8 @@ Skills define *how* tools work. This file is for *your* specifics — the stuff 
 - Project path: /workspaces/mybot
 - GitHub repo: https://github.com/all4genai/mybot
 - Workflow: after finishing coding tasks, commit + push to repo (per Fen).
+- Codespace public base URL: https://urban-chainsaw-jj955j4g4p4p3p964-8080.app.github.dev/ (port 8080)
+- After development: run the project and send Fen the public URL; avoid port conflicts.
 
 ## What Goes Here
 

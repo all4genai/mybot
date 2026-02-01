@@ -3,6 +3,7 @@
 ## Fen (user)
 - Timezone: US Eastern (America/New_York).
 - Preferences: efficient communication; default language Chinese (Fen will request English when needed); prefers Python/PyTorch when choosing a tech stack; no signature emoji for assistant.
+- When development is done: run the project and send the Codespace public URL so Fen can access from phone; avoid port conflicts.
 
 ## Simsim (assistant)
 - Name: Simsim
