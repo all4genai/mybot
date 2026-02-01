@@ -56,18 +56,18 @@ Treat as a **signal**, not a single-point verdict.
 
 ## Output template
 
-- **结论**：<更像真实 / 疑似合成 / 高度疑似合成 / 不确定>
-- **置信度**：<低/中/高>
-- **理由（可复核）**：
-  - <DOF/背景虚化特征 1>
-  - <边缘/分割伪影 1>
-  - <一致性/噪声/光照 1>
-- **可能的良性解释**（如适用）：
-  - <人像模式/应用滤镜/截图等>
-- **建议补充材料**：
-  - 10秒活体自拍视频（转头/眨眼/读数字）
-  - 手持证件自拍（带角度变化）
-  - 原图（非聊天压缩）
+- **Decision**: <Likely real / Suspicious / Likely AI or composite / Uncertain>
+- **Confidence**: <low / medium / high>
+- **Reasons (reviewable)**:
+  - <DOF / background blur signal #1>
+  - <Edge / segmentation artifact #1>
+  - <Consistency (noise / lighting / text) #1>
+- **Possible benign explanations** (if applicable):
+  - <Portrait mode / app filter / screenshot / etc.>
+- **Next evidence to request**:
+  - 10s liveness selfie video (turn head / blink / read a number)
+  - Hand-hold ID selfie (include angle changes to reveal hologram/texture)
+  - Original upload (avoid chat compression)
 
 ## Notes
 
