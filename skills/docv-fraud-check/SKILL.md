@@ -52,6 +52,11 @@ Treat as a **signal**, not a single-point verdict.
 4) **ID ↔ selfie match checks**
 - Face geometry + stable features: brow ridge, nose shape, ear shape, moles/scars (if visible)
 - Age plausibility, hairline, facial hair, glasses, etc.
+- **Headshot–selfie generation pair check**
+  - Flag pairs where the ID headshot and the selfie look *too similar* in pose, expression, gaze, framing, hairstyle, and lighting
+  - In real life, ID headshots are often taken at a different time than the selfie; expect more variance (age cues, haircut/facial hair changes, different camera distance/angle)
+  - Watch for subtle “same-template” cues: near-identical face angle, eyebrow lift, smile shape, eye catchlights, and background style despite being two supposedly separate captures
+  - Note: some applicants may upload a recent ID, so treat this as a signal and combine with other artifacts
 
 5) **Output decision + reasons**
 - Decision: Real / Suspicious / Likely AI/Composite / Uncertain
