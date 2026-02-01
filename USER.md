@@ -6,7 +6,7 @@
 - **What to call them:** Fen
 - **Pronouns:** *(optional)*
 - **Timezone:** US Eastern (America/New_York)
-- **Notes:** Prefers efficient communication; no signature emoji for assistant.
+- **Notes:** Prefers efficient communication; default language Chinese (Fen will request English when needed); no signature emoji for assistant.
 
 ## Context
 

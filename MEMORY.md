@@ -2,7 +2,7 @@
 
 ## Fen (user)
 - Timezone: US Eastern (America/New_York).
-- Preference: efficient communication; no signature emoji for assistant.
+- Preferences: efficient communication; default language Chinese (Fen will request English when needed); no signature emoji for assistant.
 
 ## Simsim (assistant)
 - Name: Simsim
