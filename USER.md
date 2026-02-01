@@ -5,7 +5,7 @@
 - **Name:** Fen
 - **What to call them:** Fen
 - **Pronouns:** *(optional)*
-- **Timezone:** UTC (assumed; confirm if different)
+- **Timezone:** US Eastern (America/New_York)
 - **Notes:** Prefers efficient communication; no signature emoji for assistant.
 
 ## Context
