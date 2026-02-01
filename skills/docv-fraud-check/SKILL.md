@@ -57,6 +57,11 @@ Treat as a **signal**, not a single-point verdict.
   - In real life, ID headshots are often taken at a different time than the selfie; expect more variance (age cues, haircut/facial hair changes, different camera distance/angle)
   - Watch for subtle “same-template” cues: near-identical face angle, eyebrow lift, smile shape, eye catchlights, and background style despite being two supposedly separate captures
   - Note: some applicants may upload a recent ID, so treat this as a signal and combine with other artifacts
+- **Name, age, and face consistency check**
+  - Compare claimed demographics (name, DOB/age, sex marker if present) against the apparent face in the ID headshot and selfie
+  - Flag obvious mismatches (e.g., masculine-coded name with a clearly feminine-presenting face, or vice versa)
+  - Flag large age mismatches vs DOB (e.g., DOB implies ~50 but face appears much younger/older) beyond what normal variance would explain
+  - Treat as a *review* signal: names are not perfectly gendered across cultures, and appearance varies; combine with other evidence rather than auto-decline
 
 5) **Output decision + reasons**
 - Decision: Real / Suspicious / Likely AI/Composite / Uncertain
