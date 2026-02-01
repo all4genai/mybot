@@ -43,6 +43,11 @@ Treat as a **signal**, not a single-point verdict.
 - Text legibility without "AI gibberish"; font edge consistency
 - Security features / hologram plausibility (limited under compression)
 - Signs of compositing (cut edges, mismatched noise, warped text, repeated patterns)
+- **Document fake signature check**
+  - Flag signatures that look like a **printed cursive font** rather than ink strokes
+  - Look for overly consistent line thickness, perfectly smooth bezier-like curves, uniform spacing, and repeated glyph shapes
+  - Check for lack of natural pen-lift artifacts: variable pressure, micro tremor, stroke overlap/starts/ends, and irregular baseline
+  - Watch for "signature" rendered at the same sharpness/anti-aliasing as surrounding printed text (suggesting it was typeset)
 
 4) **ID ↔ selfie match checks**
 - Face geometry + stable features: brow ridge, nose shape, ear shape, moles/scars (if visible)
