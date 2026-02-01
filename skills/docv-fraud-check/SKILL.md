@@ -27,9 +27,10 @@ Treat as a **signal**, not a single-point verdict.
 
 2) **Selfie deepfake checks**
 - **DOF / background blur**
-  - Uniform, strong background blur with an extremely sharp face
+  - Uniform, strong background blur with an extremely sharp face (shallow-DOF / prime-lens look)
   - Blur that does not vary naturally with depth
   - Segmentation artifacts around hair/ears/glasses/shoulders (halo/cutout)
+  - **Lighting separation red flag**: face is well-lit while the background is unusually dark for the claimed scene/capture (can indicate compositing or generative portrait rendering)
 - **Lighting/physics consistency**
   - Light direction vs shadows; eye catchlights; specular highlights
 - **Texture realism**
@@ -46,8 +47,9 @@ Treat as a **signal**, not a single-point verdict.
 - **Document fake signature check**
   - Flag signatures that look like a **printed cursive font** rather than ink strokes
   - Look for overly consistent line thickness, perfectly smooth bezier-like curves, uniform spacing, and repeated glyph shapes
-  - Check for lack of natural pen-lift artifacts: variable pressure, micro tremor, stroke overlap/starts/ends, and irregular baseline
-  - Watch for "signature" rendered at the same sharpness/anti-aliasing as surrounding printed text (suggesting it was typeset)
+  - Check for lack of natural pen dynamics: variable pressure, micro tremor, stroke overlap/starts/ends, irregular baseline, and ink pooling
+  - Watch for a "signature" rendered at the same sharpness/anti-aliasing as surrounding printed text (suggesting it was typeset)
+  - Watch for *too-perfect* joins and identical stroke endpoints across different samples (if multiple docs)
 
 4) **ID ↔ selfie match checks**
 - Face geometry + stable features: brow ridge, nose shape, ear shape, moles/scars (if visible)
@@ -55,8 +57,11 @@ Treat as a **signal**, not a single-point verdict.
 - **Headshot–selfie generation pair check**
   - Flag pairs where the ID headshot and the selfie look *too similar* in pose, expression, gaze, framing, hairstyle, and lighting
   - In real life, ID headshots are often taken at a different time than the selfie; expect more variance (age cues, haircut/facial hair changes, different camera distance/angle)
-  - Watch for subtle “same-template” cues: near-identical face angle, eyebrow lift, smile shape, eye catchlights, and background style despite being two supposedly separate captures
-  - Note: some applicants may upload a recent ID, so treat this as a signal and combine with other artifacts
+  - Watch for “same-generation/template” cues:
+    - Near-identical face angle, eyebrow lift, smile shape, eye catchlights
+    - **Near-identical camera angle/framing** (even if the selfie is a different environment)
+    - **Left-right mirror similarity**: the largest difference between headshot and selfie is a horizontal flip
+  - Note: some applicants may upload a recent ID; treat as a signal and combine with other artifacts
 - **Name, age, and face consistency check**
   - Compare claimed demographics (name, DOB/age, sex marker if present) against the apparent face in the ID headshot and selfie
   - Flag obvious mismatches (e.g., masculine-coded name with a clearly feminine-presenting face, or vice versa)
