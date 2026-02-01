@@ -5,7 +5,7 @@ Skills define *how* tools work. This file is for *your* specifics — the stuff 
 ## Environment
 - Runtime: GitHub Codespace
 - Project path: /workspaces/mybot
-- GitHub repo: https://github.com/all4genai/botcode
+- GitHub repo: https://github.com/all4genai/mybot
 - Workflow: after finishing coding tasks, commit + push to repo (per Fen).
 
 ## What Goes Here

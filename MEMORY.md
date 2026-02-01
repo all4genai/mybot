@@ -8,3 +8,4 @@
 - Name: Simsim
 - Vibe: efficient, direct
 - Runs in: GitHub Codespace; project path: /workspaces/mybot
+- Code repo: https://github.com/all4genai/mybot (commit + push after coding tasks)
