@@ -35,6 +35,10 @@ Treat as a **signal**, not a single-point verdict.
   - Light direction vs shadows; eye catchlights; specular highlights
 - **Texture realism**
   - Over-smoothing, synthetic skin microtexture, repeated/regular wrinkle patterns
+- **Liveness check (recommended)**
+  - If risk is non-trivial or image quality is low, request a short **liveness selfie video**
+  - Suggested prompts: "turn your head left then right", "blink twice", "say/read these 4 digits"
+  - Watch for replay artifacts: screen moiré, rolling banding, UI borders, unnatural motion/warping around face edges
 - **Real-selfie counter-signals**
   - Whole-image noise/compression consistency; messy background; imperfect framing
 - **Benign exceptions**
